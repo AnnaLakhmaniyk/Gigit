@@ -95,8 +95,8 @@
 <symbol id="icon-filters" viewBox="0 0 21 18">
 <path d="M6 4C6 5.10457 5.10457 6 4 6V8C6.20914 8 8 6.20914 8 4H6ZM4 6C2.89543 6 2 5.10457 2 4H0C0 6.20914 1.79086 8 4 8V6ZM2 4C2 2.89543 2.89543 2 4 2V0C1.79086 0 0 1.79086 0 4H2ZM4 2C5.10457 2 6 2.89543 6 4H8C8 1.79086 6.20914 0 4 0V2Z"></path>
 <path d="M15 14C15 15.1046 15.8954 16 17 16V18C14.7909 18 13 16.2091 13 14H15ZM17 16C18.1046 16 19 15.1046 19 14H21C21 16.2091 19.2091 18 17 18V16ZM19 14C19 12.8954 18.1046 12 17 12V10C19.2091 10 21 11.7909 21 14H19ZM17 12C15.8954 12 15 12.8954 15 14H13C13 11.7909 14.7909 10 17 10V12Z"></path>
-<line x1="11" y1="4" x2="20" y2="4" stroke="#12141D" stroke-width="2" stroke-linecap="round"/>
-<line x1="1" y1="-1" x2="10" y2="-1" transform="matrix(-1 0 0 1 11 15)" stroke="#12141D" stroke-width="2" stroke-linecap="round"/>
+<line x1="11" y1="4" x2="20" y2="4" stroke="#8B929A" stroke-width="2" stroke-linecap="round"/>
+<line x1="1" y1="-1" x2="10" y2="-1" transform="matrix(-1 0 0 1 11 15)" stroke="#8B929A" stroke-width="2" stroke-linecap="round"/>
 </symbol>
 
 

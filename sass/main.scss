@@ -4,8 +4,8 @@
 @import "base/base";
 @import "base/typography";
 
-@import "components/browse";
 @import "components/search";
-@import "components/favorite-artists";
 
 @import "layout/navigation";
+@import "layout/browse";
+@import "layout/favorite-artists";

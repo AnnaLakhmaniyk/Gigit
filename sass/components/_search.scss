@@ -2,13 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--color-light-grey-1);
 
-  &__form {
-    margin-left: auto;
+  &__title {
+    margin-right: auto;
   }
 
   &__form:not(:last-child) {
     margin-right: 20px;
+  }
+  &__form {
+    position: relative;
   }
 
   &__input {
@@ -16,12 +21,10 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 1.4;
-    border: 1.5px solid #3a3c45;
-    padding: 13px 0 13px 16px;
+    border: 1.5px solid var(--color-light-grey-1);
+    padding: 13px 16px 13px 16px;
     border-radius: 6px;
     transition: all 0.2s;
-
-    margin-right: -3.25rem;
 
     &:focus {
       width: 100%;
@@ -37,20 +40,15 @@
   &__button {
     border: none;
     background-color: var(--color-grey-light-2);
-
-    &:focus {
-      outline: none;
-    }
-
-    &:active {
-      transform: translateY(2px);
-    }
+    position: absolute;
+    top: 25%;
+    right: 8%;
   }
 
   &__icon {
     height: 24px;
     width: 24px;
 
-    fill: var(--color-grey-light-2);
+    fill: var(--color-grey-2);
   }
 }
