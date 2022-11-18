@@ -19,10 +19,22 @@ body {
   line-height: 1.3;
   color: var(--color-black);
 }
+.heading-third {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-black);
+}
 
 .heading-fourth {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
   color: var(--color-black);
+}
+
+.text-grey {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-grey-1);
 }

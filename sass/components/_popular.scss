@@ -1,0 +1,21 @@
+.popular {
+  &__list {
+    padding-top: 24px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 269px));
+    gap: 20px;
+    justify-items: center;
+    justify-content: space-around;
+  }
+
+  &__item {
+  }
+
+  &__img {
+    width: 269px;
+    height: 269px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+}
