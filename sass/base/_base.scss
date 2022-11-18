@@ -15,7 +15,10 @@ body {
 .container {
   display: grid;
   grid-template-rows: 100vh;
-  grid-template-columns: minmax(min-content, 80px) 2fr 1fr;
+  grid-template-columns: minmax(min-content, 80px) 1fr minmax(
+      min-content,
+      344px
+    );
 }
 
 p,

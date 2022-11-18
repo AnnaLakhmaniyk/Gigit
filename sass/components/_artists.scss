@@ -1,0 +1,32 @@
+.artists {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 102px));
+    row-gap: 16px;
+    justify-items: center;
+    justify-content: space-around;
+
+    padding-top: 24px;
+    padding-bottom: 56px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--color-grey-1);
+  }
+}
