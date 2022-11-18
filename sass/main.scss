@@ -1,4 +1,11 @@
-h1 {
-  color: aqua;
-  background-color: bisque;
-}
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/browse";
+@import "components/search";
+@import "components/favorite-artists";
+
+@import "layout/navigation";
