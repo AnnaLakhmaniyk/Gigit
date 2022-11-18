@@ -66,6 +66,12 @@ body {
   line-height: 1.3;
   color: var(--color-black); }
 
+.heading-secondary {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
+  color: var(--color-black); }
+
 .search {
   display: flex;
   align-items: center;
@@ -103,6 +109,39 @@ body {
     height: 24px;
     width: 24px;
     fill: var(--color-grey-2); }
+
+.groups {
+  padding-top: 32px;
+  padding-bottom: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .groups__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .groups__item:not(:last-child) {
+    margin-right: -65px; }
+  .groups__photo {
+    border-radius: 4px;
+    transition: all 0.2s;
+    position: relative; }
+    .groups__photo-2 {
+      filter: opacity(93%); }
+    .groups__photo-3 {
+      z-index: 10; }
+    .groups__photo:hover {
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(var(--color-black), 0.5);
+      filter: opacity(100%); }
+  .groups__about {
+    margin-left: 68px;
+    text-align: left; }
+  .groups__text {
+    font-size: 14px;
+    line-height: 1.3;
+    color: var(--color-black);
+    margin-top: 16px; }
 
 .navigation {
   padding: 32px 20px 24px 20px;

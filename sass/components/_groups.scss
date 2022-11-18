@@ -1,0 +1,50 @@
+.groups {
+  padding-top: 32px;
+  padding-bottom: 58px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: -65px;
+  }
+
+  &__photo {
+    border-radius: 4px;
+    transition: all 0.2s;
+    position: relative;
+    &-1 {
+    }
+    &-2 {
+      filter: opacity(93%);
+    }
+    &-3 {
+      z-index: 10;
+    }
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(var(--color-black), 0.5);
+      filter: opacity(100%);
+    }
+  }
+
+  &__about {
+    margin-left: 68px;
+    text-align: left;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.3;
+    color: var(--color-black);
+    margin-top: 16px;
+  }
+}
