@@ -13,12 +13,13 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: minmax(min-content, 80px) 1fr minmax(
-      min-content,
-      344px
-    );
+  // display: grid;
+  // grid-template-rows: 100%;
+  // grid-template-columns: minmax(min-content, 80px) 1fr minmax(
+  //     min-content,
+  //     344px
+  //   );
+  display: flex;
 }
 
 p,

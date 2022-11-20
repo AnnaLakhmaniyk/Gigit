@@ -1,12 +1,14 @@
 .favorite-artists {
-  background-color: var(--color-light-grey-3);
-  padding: 40px 32px 0 32px;
-
   &__title {
     display: flex;
     align-items: center;
-    padding-bottom: 29px;
+    padding-bottom: 26px;
     border-bottom: 1px solid var(--color-light-grey-1);
+
+    @include respond(tab-land) {
+      flex-direction: column;
+      padding-bottom: 7px;
+    }
   }
   &__text {
     font-weight: 500;
