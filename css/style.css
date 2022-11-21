@@ -600,7 +600,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 39%;
     padding: 56px 80px;
     background-color: var(--color-white);
     box-shadow: 0 2rem 4rem rgba(18, 20, 29, 0.2);

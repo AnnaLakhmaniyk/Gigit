@@ -7,7 +7,6 @@
   background-color: rgba(#12141d, 0.4);
   backdrop-filter: blur(4px);
   z-index: 9999;
-  // display: none;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
@@ -24,7 +23,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 39%;
     padding: 56px 80px;
 
     background-color: var(--color-white);
