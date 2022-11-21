@@ -16,6 +16,12 @@
     }
   }
 
+  @if $breakpoint == tab-medium-land {
+    @media only screen and (max-width: 1300px) {
+      @content;
+    }
+  }
+
   @if $breakpoint == tab-land {
     @media only screen and (max-width: 1400px) {
       @content;

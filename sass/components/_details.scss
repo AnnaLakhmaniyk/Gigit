@@ -4,7 +4,11 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr) minmax(min-content, 359px);
-  grid-template-rows: repeat(2, 1fr);
-
+  grid-template-rows: repeat(2, max-content);
+  row-gap: 56px;
   column-gap: 80px;
+
+  @include respond(phone) {
+    row-gap: 32px;
+  }
 }

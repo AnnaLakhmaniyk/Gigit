@@ -1,4 +1,9 @@
 .about {
   padding: 32px 44px 53px 44px;
   width: 100%;
+
+  @include respond(phone) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

@@ -22,6 +22,12 @@
     height: 60px;
     border-radius: 50%;
     margin-bottom: 12px;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 30px rgba(#12141d, 0.1);
+    }
   }
 
   &__text {

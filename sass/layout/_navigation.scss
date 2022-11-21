@@ -8,6 +8,11 @@
   align-items: center;
   justify-content: center;
 
+  @include respond(phone) {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
   &__nav {
     margin-bottom: auto;
   }
