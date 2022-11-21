@@ -1,0 +1,16 @@
+.poster {
+  height: 274px;
+  margin-top: 32px;
+  background-image: url(../img/nirvana-big.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+
+  &__photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 6px;
+    margin-left: 32px;
+    margin-top: 146px;
+  }
+}

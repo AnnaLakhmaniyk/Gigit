@@ -1,0 +1,12 @@
+.details {
+  padding-top: 56px;
+  margin-top: 32px;
+  // display: flex;
+  // flex-wrap: wrap;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) minmax(min-content, 359px);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 56px;
+  column-gap: 80px;
+}

@@ -4,6 +4,11 @@
 @import "base/base";
 @import "base/typography";
 
+@import "layout/navigation";
+@import "layout/browse";
+@import "layout/favorite";
+@import "layout/about";
+
 @import "components/search";
 @import "components/groups";
 @import "components/artists";
@@ -11,6 +16,9 @@
 @import "components/favorite-artists";
 @import "components/favorite-modal";
 
-@import "layout/navigation";
-@import "layout/browse";
-@import "layout/favorite";
+@import "components/topic";
+@import "components/poster";
+@import "components/details";
+@import "components/about-group";
+@import "components/gallery";
+@import "components/muso-details";
