@@ -96,7 +96,7 @@
       </div>
     </div>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="topic">
         <a href="#" class="topic__link">
           <svg class="topic__icon">
@@ -129,18 +129,16 @@
 
           <div class="about-group__wrap">
             <div class="about-group__buttons">
-              <button
-                type="button"
-                class="about-group__btn about-group__btn--1"
-              >
+              <a href="#modal" class="about-group__btn about-group__btn--1">
                 Book a Gig
-              </button>
-              <button
+              </a>
+              <a
+                href="#"
                 type="button"
                 class="about-group__btn about-group__btn--2"
               >
                 Watch preview
-              </button>
+              </a>
             </div>
 
             <ul class="about-group__list">
@@ -327,5 +325,22 @@
         </div>
       </div>
     </section>
+
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <a href="#about" class="modal__close">
+          <svg class="modal__icon">
+            <use xlink:href="./img/sprite.svg#icon-close"></use>
+          </svg>
+        </a>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          cupiditate delectus aliquid. Temporibus cupiditate porro aperiam,
+          omnis ducimus dignissimos? Quae harum possimus, qui assumenda
+          perferendis recusandae necessitatibus pariatur voluptates ipsa.
+        </p>
+      </div>
+    </div>
   </body>
 </html>

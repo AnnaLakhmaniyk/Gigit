@@ -463,6 +463,7 @@ body {
         align-items: flex-start; } }
   .about-group__btn {
     display: inline-block;
+    text-align: center;
     padding: 13px 0 14px;
     width: 220px;
     font-weight: 500;
@@ -581,3 +582,49 @@ body {
     font-size: 14px;
     line-height: 1.5;
     color: #12141d; }
+
+.modal {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(18, 20, 29, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s; }
+  .modal__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 56px 80px;
+    background-color: var(--color-white);
+    box-shadow: 0 2rem 4rem rgba(18, 20, 29, 0.2);
+    border-radius: 16px;
+    display: table;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all 0.5s 0.2s; }
+  .modal__close {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-grey-2);
+    transition: all 0.2s; }
+    .modal__close:hover {
+      fill: var(--color-dark-grey); }
+  .modal:target {
+    opacity: 1;
+    visibility: visible; }
+  .modal:target .modal__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .modal__close:link, .modal__close:visited {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block; }
