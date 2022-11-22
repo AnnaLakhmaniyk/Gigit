@@ -333,11 +333,67 @@
             <use xlink:href="./img/sprite.svg#icon-close"></use>
           </svg>
         </a>
-        <h2 class="heading-secondary">Tell us more about your Venue</h2>
-        <p>
+        <h2 class="heading-primary">Tell us more about your Venue</h2>
+        <p class="modal__text modal__text--flinch">
           To access all of the site's features and allow music groups to learn
           more about you
         </p>
+
+        <div class="modal__details">
+          <div class="modal__progress modal__progress--line">
+            <span class="modal__number">1/5</span>
+          </div>
+          <h3 class="modal__title">Venue Details</h3>
+        </div>
+
+        <div class="modal__form">
+          <form action="" class="form">
+            <label class="form__label"
+              >Name of your Venue
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Venue"
+                required
+              />
+            </label>
+
+            <label class="form__label"
+              >Venue Email
+              <input
+                type="email"
+                class="form__input"
+                placeholder="mail@sitename.com"
+                required
+              />
+            </label>
+
+            <label class="form__label"
+              >Venue Phone
+              <input
+                type="tel"
+                class="form__input"
+                placeholder="+61 111 111 111"
+                required
+              />
+            </label>
+
+            <label class="form__label"
+              >Venue Website
+              <input
+                type="text"
+                class="form__input"
+                placeholder="sitename.com"
+                required
+              />
+            </label>
+
+            <div class="form__buttons">
+              <button type="form" class="form__btn">Continue</button>
+              <a href="#about" class="form__link">Cancel</a>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </body>

@@ -61,8 +61,8 @@
 
   &__list {
     display: grid;
-    grid-template-columns: repeat(3, 119px);
-    grid-template-rows: repeat(3, 119px);
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
     gap: 1px;
 
     @include respond(phone) {
