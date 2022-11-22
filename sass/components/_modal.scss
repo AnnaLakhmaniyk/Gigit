@@ -321,3 +321,40 @@
     fill: var(--color-grey-2);
   }
 }
+
+.modal-fifth {
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:target &__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  &--line {
+    background: conic-gradient(#ff715b 360deg, #eff0f2 0deg);
+  }
+
+  &--label {
+    position: relative;
+  }
+
+  &__btn {
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+    top: 48px;
+    right: 12px;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 10px;
+    fill: var(--color-grey-2);
+  }
+}

@@ -25,7 +25,7 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link">
+            <a href="./calendar.html" class="navigation__link">
               <svg class="navigation__icon">
                 <use xlink:href="./img/sprite.svg#icon-calendar"></use>
               </svg>
@@ -555,8 +555,103 @@
             ></iframe>
 
             <div class="form__buttons modal-fourth--buttons">
-              <a href="#modal-fourth" class="form__btn">Continue</a>
+              <a href="#modal-fifth" class="form__btn">Continue</a>
               <a href="#modal-third" class="form__link">Previous step</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-fifth" id="modal-fifth">
+      <div class="modal__content modal-fifth__content">
+        <a href="#about" class="modal__close">
+          <svg class="modal__icon">
+            <use xlink:href="./img/sprite.svg#icon-close"></use>
+          </svg>
+        </a>
+        <h2 class="heading-primary">Tell us more about your Venue</h2>
+        <p class="modal__text modal__text--flinch">
+          To access all of the site's features and allow music groups to learn
+          more about you
+        </p>
+
+        <div class="modal__details">
+          <div class="modal__progress modal-fifth--line">
+            <span class="modal__number">5/5</span>
+          </div>
+          <h3 class="modal__title">Musical Preferences</h3>
+        </div>
+
+        <div class="modal__form">
+          <form action="" class="form">
+            <label class="form__label modal-fifth--label"
+              >Live Gigs Per Week
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Select an option"
+                required
+              />
+
+              <button class="modal-fifth__btn">
+                <svg class="modal-fifth__icon">
+                  <use xlink:href="./img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </button>
+            </label>
+
+            <label class="form__label modal-fifth--label"
+              >What night/s of the week do you host Live Music?
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Select an option"
+                required
+              />
+
+              <button class="modal-fifth__btn">
+                <svg class="modal-fifth__icon">
+                  <use xlink:href="./img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </button>
+            </label>
+
+            <label class="form__label modal-fifth--label"
+              >Preferred Music Genres
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Select an option"
+                required
+              />
+
+              <button class="modal-fifth__btn">
+                <svg class="modal-fifth__icon">
+                  <use xlink:href="./img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </button>
+            </label>
+
+            <label class="form__label modal-fifth--label"
+              >Preferred Gig Duration (hours)
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Select an option"
+                required
+              />
+
+              <button class="modal-fifth__btn">
+                <svg class="modal-fifth__icon">
+                  <use xlink:href="./img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </button>
+            </label>
+
+            <div class="form__buttons">
+              <a href="#modal-fourth" class="form__btn">Continue</a>
+              <a href="#modal-fourth" class="form__link">Previous step</a>
             </div>
           </form>
         </div>
