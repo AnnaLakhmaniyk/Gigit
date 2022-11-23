@@ -1,0 +1,37 @@
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+
+  &__calendar {
+    width: 196px;
+    padding: 9px 8px;
+    border: 1px solid var(--color-light-grey-1);
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-black);
+  }
+
+  &__btn {
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 10px;
+    fill: var(--color-grey-2);
+  }
+}

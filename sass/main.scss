@@ -8,6 +8,7 @@
 @import "layout/browse";
 @import "layout/favorite";
 @import "layout/about";
+@import "layout/calendar";
 
 @import "components/search";
 @import "components/groups";
@@ -23,3 +24,7 @@
 @import "components/gallery";
 @import "components/muso-details";
 @import "components/modal";
+
+@import "components/data";
+@import "components/week";
+@import "components/month";
