@@ -59,9 +59,7 @@
     height: 24px;
     fill: var(--color-grey-2);
   }
-
-  &__icon:hover,
-  &__icon:active {
+  &__link:hover &__icon {
     fill: var(--color-black);
   }
 }

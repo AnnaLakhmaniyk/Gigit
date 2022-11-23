@@ -127,7 +127,7 @@ body {
     width: 24px;
     height: 24px;
     fill: var(--color-grey-2); }
-  .navigation__icon:hover, .navigation__icon:active {
+  .navigation__link:hover .navigation__icon {
     fill: var(--color-black); }
 
 .browse {
